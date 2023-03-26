@@ -1,4 +1,12 @@
 "use strict";
+//objects
+const person = {
+  name: "Jahanzaib",
+  city: "Lahore",
+  age: 24,
+  "education#": "BSSE",
+};
+console.log(person.age2);
 // //strongly typed syntax
 // let a: string = "Pakistan";
 // a = "USA";
@@ -12,20 +20,20 @@
 // g = true;
 //step 002
 //use const where variable values do not change
-const a = 5;
-const b = 33;
-const c = "best";
-//I suggest use let instead of var everywhere,
-//becuase let has blocked scope
-let z = 5;
-if (true) {
-    z = 3;
-    z = 2;
-    console.log(z);
-    //use z
-}
-else {
-    let z = "string";
-    //use z
-}
-console.log("let: " + z); // Error: z is not defined in this scope
+// `const a = 5;
+// const b: number = 33;
+// const c = "best";
+// //I suggest use let instead of var everywhere,
+// //becuase let has blocked scope
+// let z = 5;
+// if (true) {
+//   z = 3;
+//   z = 2;
+//   console.log(z);
+//   //use z
+// } else {
+//   let z = "string";
+//   //use z
+// }
+// console.log("let: " + z); // Error: z is not defined in this scope
+// //objects`
